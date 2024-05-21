@@ -7,6 +7,15 @@ body {
     background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
 .footer {
     color: #E5E7EB;
     font-size: 18px;
