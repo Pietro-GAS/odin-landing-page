@@ -36,6 +36,11 @@ body {
     color: #E5E7EB;
 }
 
+.hero-content {
+    display: flex;
+    align-items: center;
+}
+
 .footer {
     height: 72px;
     display: flex;
