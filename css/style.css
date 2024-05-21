@@ -6,3 +6,12 @@ body {
 .hero, .footer {
     background-color: #1F2937;
 }
+
+.footer {
+    color: #E5E7EB;
+    font-size: 18px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
