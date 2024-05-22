@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    height: 100vh;
 }
 
 .hero, .footer {
@@ -93,7 +95,7 @@ button {
     display:flex;
     justify-content: center;
     align-items: center;
-    padding: 32px 64px;
+    padding: 32px 128px;
 }
 
 .action-content {
@@ -103,10 +105,18 @@ button {
     align-items: center;
     padding: 32px 64px;
     border-radius: 8px;
+    width: 75%;
 }
 
 .action-text {
+    flex: 2;
+}
+
+.action-button {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
