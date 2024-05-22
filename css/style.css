@@ -26,8 +26,9 @@ body {
     gap: 8px;
 }
 
-#logo {
+#logo, .action-title {
     font-size: 24px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
@@ -65,11 +66,15 @@ button {
     background: #3882F6;
     border-radius: 8px;
     padding: 8px 16px;
+    color: #F9FAF8;
 }
 
 #hero-button {
     border: 1px solid #3882F6;
-    color: #F9FAF8;
+}
+
+#action-button {
+    border: 1px solid #F9FAF8;
 }
 
 .info {
@@ -85,7 +90,23 @@ button {
 }
 
 .action {
-    /*Placeholder*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 64px;
+}
+
+.action-content {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 64px;
+    border-radius: 8px;
+}
+
+.action-text {
+    flex: 1;
 }
 
 .footer {
