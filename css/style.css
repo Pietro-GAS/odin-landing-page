@@ -84,6 +84,7 @@ button {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 8px;
 }
 
 .info-title {
@@ -94,10 +95,27 @@ button {
 
 .info-content {
     display: flex;
+    gap: 32px;
+    width: 75%;
 }
 
 .info {
-    flex: 1;
+    flex: 1 1 25%;
+}
+
+.info-img {
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+    padding: 4px
+}
+
+.info-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-text {
+    font-size: 16px;
 }
 
 .quote {
