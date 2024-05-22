@@ -45,6 +45,10 @@ body {
     color: #E5E7EB;
 }
 
+a {
+    text-decoration: none;
+}
+
 .hero-content {
     display: flex;
     align-items: center;
