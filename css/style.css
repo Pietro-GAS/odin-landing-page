@@ -77,7 +77,11 @@ button {
 }
 
 .quote {
-    /*Placeholder*/
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .action {
